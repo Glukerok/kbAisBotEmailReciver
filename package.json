@@ -1,0 +1,24 @@
+{
+  "name": "main_server_bot",
+  "version": "1.0.0",
+  "description": "A telegram bot to push new messages from email.",
+  "main": "app/index.ts",
+  "scripts": {
+    "test": "ts-node app",
+    "start": "node build",
+    "build": "tsc"
+  },
+  "author": "Andrew",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "mail-notifier": "^0.5.0",
+    "telegraf": "^4.4.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "ts-node": "^10.1.0"
+  }
+}
